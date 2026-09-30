@@ -26,7 +26,7 @@ def get_twilio_client():
 
 twilio_client = get_twilio_client()
 gemini_client = get_gemini_client()
-MODEL_NAME = "gemini-3.8-flash"
+MODEL_NAME = "gemini-2.5-flash"
 
 
 def clean_whatsapp_text(text):
